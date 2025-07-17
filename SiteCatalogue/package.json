@@ -1,0 +1,12 @@
+{
+  "name": "Appli de mecanique",
+  "version": "1.0.0",
+  "main": "pieces.js",
+  "scripts": {
+    "start":"http-server",
+    "dev":"http-server"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

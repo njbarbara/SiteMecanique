@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Site d'essai</title>
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="pieces.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>IUT Mécanique</h1>
+		</header>
+		<main>
+			<section class="filtres">
+				<h3>Filtres</h3>
+				<button class="btn-trier">Trier par prix croissant</button>
+				<br>
+				<button class="btn-filtrer">Filtrer les pièces non abordables</button>
+				<br>
+				<button class="btn-decroissant">Trier par prix décroissant</button>
+				<br>
+				<button class="btn-nodesc">Filtrer les pièces sans description</button>
+				<h3>Ajouter un avis</h3>
+
+				<form class="formulaire-avis">
+
+				····Identifiant de la pièce :<br>
+
+				····<input type="number" name="piece-id"><br>
+
+				····Nom d'utilisateur :<br>
+
+				····<input type="text" name="utilisateur"><br>
+
+				····Avis :<br>
+
+				····<input type="text" name="commentaire"><br>
+
+				····<button>Envoyer</button>
+
+				</form>
+			</section>
+
+			<section class="fiches">
+				<section class="abordables"></section>
+			</section>
+		</main>
+	</body>
+</html>
+
+
+
